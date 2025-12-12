@@ -1,0 +1,186 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1ed6e3a5;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Typography */
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+h1 { font-size: 2.5em; }
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.4em; }
+
+/* Sections */
+.section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Navigation links */
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Home page specific */
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+.cta {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    background: #020ef6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta:hover {
+    background: #0056b3;
+    color: white;
+    text-decoration: none;
+}
+
+.overview {
+    text-align: center;
+}
+
+/* About page specific */
+.float-left {
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.skills-list, .hobbies-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li, .hobbies-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #e9ecef;
+    border-radius: 5px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 1.2em;
+    text-align: center;
+    color: #555;
+    margin: 30px 0;
+    padding: 20px;
+    background: #f8f9fa;
+    border-left: 4px solid #007bff;
+}
+
+/* Projects page specific */
+.project {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.project img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.project-info h2 {
+    margin-top: 0;
+}
+
+.tech {
+    background: #e9ecef;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+/* Contact page specific */
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info-item {
+    flex: 1;
+    min-width: 150px;
+    text-align: center;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #ff00d9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.social-links a:hover {
+    background: #2d07eb;
+    color: white;
+    text-decoration: none;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin
